@@ -17,9 +17,8 @@ urlpatterns = [
     path(
         'reset-password/<str:token>/<str:user_id>/',
         PasswordResetConfirmView.as_view(),
-        name='password-reset-confirm'),
-        path('login/', LoginView.as_view(),
-        name='login'
+        name='password-reset-confirm'
     ),
+    path('login/', LoginView.as_view(),name='login'),
     path('token/refresh/', RefreshTokenView.as_view(), name='token_refresh'),
 ]
