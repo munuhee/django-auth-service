@@ -1,0 +1,30 @@
+# Ignore version control system files
+.git
+.gitignore
+
+# Ignore Python-specific files and directories
+*.pyc
+__pycache__
+
+# Ignore editor and IDE files
+.vscode
+.idea
+
+# Ignore build and package manager files
+*.log
+*.egg-info
+*.egg
+build
+dist
+env
+*.db
+
+# Ignore user-specific files (e.g., user configurations)
+*.db
+*.sqlite3
+
+# Ignore test data and temporary files
+test
+tests
+temp
+tempdata
