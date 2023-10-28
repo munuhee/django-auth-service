@@ -42,8 +42,15 @@ This script does the following:
 2. Builds the Docker image for the Django Authentication Service.
 3. Runs the Docker container on port 8000.
 
-Make sure to configure environment variables (e.g., database settings) in a `.env` file.
-
+Make sure to configure environment variables in a `.env` file.
+```
+   EMAIL_HOST=your-smtp-host
+   EMAIL_PORT=your-smtp-port
+   EMAIL_USE_TLS=True  # Change to False if not using TLS
+   EMAIL_HOST_USER=your-email@example.com
+   EMAIL_HOST_PASSWORD=your-email-password
+   DEFAULT_FROM_EMAIL=your-sender@example.com
+```
 ## Features
 
 - User registration with email and password.
