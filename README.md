@@ -1,3 +1,9 @@
+
+
+<div align="center">
+  <img src="https://res.cloudinary.com/murste/image/upload/v1698907632/stevolve_x8ioeu.png" alt="Stephen Murichu's Logo" width="100" />
+</div>
+
 # Django-based Authentication Service with RESTful API
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
